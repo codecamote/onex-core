@@ -118,10 +118,10 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x00000ee3a55532114881619e15da9dac3bb73f2875b2dc775106d2d37478cdeb"));
         assert(genesis.hashMerkleRoot     == uint256S("0x991548dbdcf66408146039b1309cd39b439e54ddfccd4008556944397a8803e6"));
 
-        vSeeds.push_back(CDNSSeedData("199.247.1.251", "199.247.1.251"));
-        vSeeds.push_back(CDNSSeedData("45.76.92.246", "45.76.92.246"));
-        vSeeds.push_back(CDNSSeedData("108.61.99.51", "108.61.99.51"));
-        vSeeds.push_back(CDNSSeedData("86.125.115.165", "86.125.115.165"));
+        vSeeds.push_back(CDNSSeedData("onex.network", "seed1.onex.network"));
+        vSeeds.push_back(CDNSSeedData("onex.network", "seed2.onex.network"));
+        vSeeds.push_back(CDNSSeedData("onex.network", "seed3.onex.network"));
+        vSeeds.push_back(CDNSSeedData("onex.network", "seed4.onex.network"));
 
         // Onex addresses start with 'X'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,75);
